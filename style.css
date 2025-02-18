@@ -1,0 +1,231 @@
+@media (max-width: 768px) {}
+
+*{
+	
+	padding: 0;
+	margin: 0;
+	font-family: Arial,sans-serif;
+	box-sizing: border-box;
+	outline: 0;
+	text-decoration: none;
+}
+body{
+	background: url(bg.polinema.jpg);
+	min-height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow-x: hidden; 
+	color: #fff;
+
+}
+header {
+	border: none;
+	background-color: #001a42; 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	color: white;
+
+}
+header-a{
+	color: 333;
+}
+header-a::hover{
+	color: blue;
+}
+div .header-logo{
+	float: left;
+	line-height: 50px;
+	background: linear-gradient (to right, #001a42, #003078);
+	padding: 10px solid;
+}
+div .header-logo img{
+	float: left;
+	margin-right: 10px; 
+}
+div .header-logo h2{
+	float: left;
+	text-transform: uppercase;
+	line-height: 100px;
+	color: lightblue;
+	font-family: Montserrat,sans-serif;
+}
+div .header-logo p{
+	float: bottom;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 14px;
+	color: #b1b1b1;
+	font-family: Montserrat,sans-serif;
+}
+div.container::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.search-form {
+	display: flex;
+	align-items: center;
+	border-radius: 50px; /* Membuat sisi melengkung pada form pencarian */
+	overflow: hidden; /* Mengatur overflow untuk melengkungkan sisi */
+	background-color: white; /* Warna latar belakang form pencarian */
+	background-position: 50% 50% ;
+}
+
+.search-form input[type="text"] {
+	padding: 6px 8px;
+	border: none; /* Hapus border */
+	background-color: transparent; /* Buat background input transparan */
+	outline: none; /* Hapus focus outline */
+	width: 200px;
+	height: 30px;
+
+}
+
+.search-form button {
+	padding: 6px 10px;
+	background-color: darkblue; /* Warna biru pada tombol */
+	color: white;
+	border: none;
+	border-radius: 0 50px 50px 0; /* Membuat sisi melengkung pada tombol */
+	cursor: pointer;
+	height: 30px;
+
+}
+button {
+	font-family: Montserrat,sans-serif;
+}
+}
+div .sosmed {
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+
+div .icon-link i {
+	font-size: 24px;
+	margin: 0 10px;
+	color: #ffe000;
+}
+body .navup ul {
+	list-style: none;
+	background: #ffe000;
+}
+body .navup ul li {
+	display: inline-block;
+	position: relative;
+}	
+body .navup ul li a {
+	display: block;
+	padding: 15px 20px;
+	color: #024a73;
+	text-decoration: none;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-family: 'Montserrat', sans-serif;
+}
+body .navup ul li ul.dropdown li {
+	display: block;
+}
+body .navup ul li ul.dropdown {
+	width: 100%;
+	background: gold;
+	position: absolute;
+	z-index: 999;
+	display: none;
+}
+body .navup ul li a:hover {
+	background: #ffbc00;
+}
+body .navup ul li:hover ul.dropdown {
+	display: block;
+}
+footer{
+	background-color: #001a42;
+	background-size: cover;
+	margin-top: 100vh;
+	justify-content: center; /* Mengatur posisi horizontal elemen <ul> ke tengah */
+	align-items: center; /* Mengatur posisi vertikal elemen <ul> ke tengah */
+	
+}
+footer .secondmenu{
+	display: flex;
+}
+
+footer .right-column {
+	flex: 2; /* Bagian ini akan mengambil 50% dari lebar container */
+	padding: 80px;
+	display: cover;
+	justify-content: center;
+	border: none;
+
+}
+
+/* styles.css */
+footer .flex-container {
+	display: flex;
+	justify-content: center; /* Mengatur posisi ul ke ujung kanan container */
+	width: 100%
+}
+footer .flex-container a{
+	color: #bddbff;
+	border: none;
+	text-align: center;
+	flex: 1;
+	display: inline-block;
+	letter-spacing: 1.2px;
+	
+}
+footer .flex-container a:hover {
+	color: #ffbc00;
+}
+footer .flex-item {
+	list-style: none;
+	
+	text-align: center; /* (Opsional) Untuk mengatur konten di dalam ul menjadi rata tengah */
+	justify-content: space-between;
+	border: none;
+	width: 100%
+}
+
+footer .left-column{
+	flex: 1; /* Bagian ini akan mengambil 50% dari lebar container */
+	display: cover;
+	justify-content: space-between;
+	align-items: left;
+	padding: 40px;
+}
+footer .left-column img{
+	border: 0;
+}
+
+footer .left-column p {
+	font-family: 'Montserrat', sans-serif;
+	color: #bddbff;
+	font-size: 13px;
+}
+footer .sosmed2{
+	text-align : center;
+}
+footer .sosmed2 i{
+	color : #bddbff;
+}
+footer .sosmed2 i:hover{
+	color: #ffd800;
+}
+footer .copyright a {
+	font-family: 'Montserrat', sans-serif;
+	color: #bddbff;
+}
+footer .copyright{
+	text-align: center;
+	color: #fff;
+}
+footer .copyright a:hover{
+	color: #ffd800;
+}
